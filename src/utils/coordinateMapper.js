@@ -1,0 +1,1 @@
+export const toCanvas = (p, w, h) => ({ x: (1 - p.x) * w, y: p.y * h });
